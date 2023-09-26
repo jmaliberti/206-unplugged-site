@@ -87,6 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  border: 3px dotted red;
+  width: 90%;
+}
+
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header {
@@ -101,30 +107,23 @@ footer {
  text-align: center;
 }
 
-/* -------------------- Mobile Homepage Styles -------------------- */
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-}
+/* ================== Homepage Styles =================== */
 
 /* -------------------- Header -------------------- */
 
-header {
-
+header .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .header-divider {
 
 }
 
-nav {
-
-}
-
-nav ul {
+header nav ul {
+  justify-content: space-around;
   list-style: none;
 }
 
@@ -134,10 +133,16 @@ nav ul {
 /* -------- Section 1 (hero area)---------------- */
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
 }
 
 /* -------------------- Aside -------------------- */
+
+aside {
+  display: flex;
+  justify-content: center;
+}
 
 .form-description {
 
@@ -150,7 +155,8 @@ nav ul {
 /* ----------- Section 2 (Articles) --------------- */
 
 .features {
-
+  display: flex;
+  justify-content: center;
 }
 
 .features-item {
@@ -164,7 +170,8 @@ nav ul {
 /* --------------- Section 3 (Reviews)--------------- */
 
 .reviews {
-
+  display: flex;
+  justify-content: center;
 }
 
 /* -------------------- Footer -------------------- */
@@ -181,12 +188,41 @@ nav ul {
 
 }
 
-.social-icons {
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright {
 
+}
+
+/* ====================================================== */
+/* ================== About Styles ===================== */
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* ====================================================== */
+/* ================== FAQ Styles ===================== */
+
+.faq {
+  display: flex;
+  justify-content: center;
 }
 
 
