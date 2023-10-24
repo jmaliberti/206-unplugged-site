@@ -444,23 +444,24 @@ footer .copyright {
 /*====== About ======*/
 
 .mission-content {
-  display: ;
+  display: flex;
   justify-content: space-between;
-  align-items:
+  align-items: flex-start;
+  padding-top: 20px;
 }
 
 .mission-content p {
-  width: ;
+  width: 45%;
 }
 
 .contact-section .content-wrapper h2 {
-  width: ;
+  width: 80%;
 }
 
 .contact-content {
-  display: ;
-  justify-content: ;
-  align-items: ;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 
