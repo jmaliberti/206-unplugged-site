@@ -89,33 +89,41 @@ textarea {
    /* General Styles */
 
 html {
-
+  font-size: 1rem;
    }
 
 body {
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #e2e3ed;
    }
 
 ul,
 ol {
-
+  list-style: none;
    }
 
 a {
-
+  color: #e2e3ed;
+  text-decoration: none;
    }
 
 h2 {
-
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500px;
    }
 
 h3,
 h4 {
-
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
    }
 
 p {
-
+  font-size: 0.875em;
+  line-height: 18px;
    }
 
 img {
@@ -127,7 +135,7 @@ figure {
    }
 
 address {
-
+  font-style: normal;
    }
 
 
@@ -163,12 +171,13 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 500px;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  list-style: none;
   width: 100%;
 }
 
@@ -259,6 +268,7 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .reviews h3 {
@@ -304,12 +314,16 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .faq-content {
   margin-bottom: 50px;
 }
 
+.faq-content h4 {
+  line-height: 24px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -405,6 +419,22 @@ aside {
   max-width: 640px;
   margin: 100px 0;
 }
+
+h1 {
+  font-size: 3em;
+  line-height: 48px
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 30px;
+}
+
     /*== Home ==*/
 header {
   padding: 33px 0;
@@ -486,6 +516,10 @@ footer .copyright {
   width: 100%;
 }
 
+footer p {
+  line-height: 18px;
+}
+
 /*====== About ======*/
 
 .mission-content {
@@ -524,11 +558,35 @@ footer .copyright {
   width: 100%;
 }
 
+.faq h4,
+.faq p {
+  font-size: 0.875em;
+  line-height: 15.75px;
+}
+
 @media only screen and (min-width: 1200px) {
      /*Desktop styles here*/
 .content-wrapper {
   max-width: 960px;
 }
+
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3, h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 24px;
+}
+
     /*== Home ==*/
 .header {
   padding: 15px 0;
@@ -565,9 +623,19 @@ aside .content-wrapper .form {
   width: 95%;
 }
 
+.mission h2 {
+  font-size: 3em;
+}
+
     /*== Faq ==*/
 .faq h2 {
   width: 100%;
+  font-size: 3em;
+}
+
+.faq h4 {
+  font-size: 1.125em;
+  line-height: 18px;
 }
 
 /* ==========================================================================
