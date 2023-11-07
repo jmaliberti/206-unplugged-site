@@ -130,11 +130,11 @@ p {
    }
 
 img {
-
+  width: 100%;
    }
 
 figure {
-
+  margin: 0;
    }
 
 address {
@@ -165,6 +165,10 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
 }
 
 .header-divider {
@@ -237,6 +241,8 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -470,6 +476,10 @@ input[type=button] {
 .content-wrapper {
   max-width: 640px;
   margin: 100px 0;
+}
+
+header figure {
+  width: 30%;
 }
 
 h1 {
