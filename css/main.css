@@ -228,6 +228,11 @@ footer .social-icons p {
   align-items: center;
 }
 
+.social-icons i  {
+  font-size: 1.313em;
+  border-radius: 50%;
+}
+
 footer .copyright {
   margin: 20px 0;
   font-family: 'Poppins', sans-serif;
