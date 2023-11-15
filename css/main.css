@@ -225,14 +225,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
 }
 
 .social-icons i  {
   font-size: 1.313em;
-  border-radius: 50%;
-  background-color: #527158;
-  height: 50px;
-  width: 50px;
 }
 
 footer .copyright {
