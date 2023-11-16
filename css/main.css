@@ -357,6 +357,11 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission .content-wrapper h2,
+.contact-section .content-wrapper h2 {
+  margin: 0;
+}
+
 .map figure {
   width: 100%;
   height: 0;
@@ -588,6 +593,8 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 .reviews article div {
@@ -623,6 +630,7 @@ footer p {
 footer .social-icons {
   width: 12.5em;
   justify-content: space-between;
+}
 
 /*====== About ======*/
 
