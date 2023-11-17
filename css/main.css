@@ -590,15 +590,32 @@ aside .content-wrapper .form {
   width: 50%;
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews img {
+  width: 49%;
+  margin-right: 0.625em;
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .reviews article div {
-  width: 49%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.reviews h3 {
+  width: 90%;
+  margin: 0;
 }
 
 footer .content-wrapper {
