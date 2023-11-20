@@ -716,8 +716,7 @@ h3, h4 {
 }
 
 p {
-  font-size: 1.125em;
-  line-height: 0.75;
+  line-height: 1.5;
 }
 
     /*== Home ==*/
@@ -750,6 +749,10 @@ aside .content-wrapper .form {
   width: 42%;
 }
 
+.reviews h2 {
+  margin: 0 0 50px 0;
+}
+
     /*== About ==*/
 .mission h2,
 .contact-section .content-wrapper {
@@ -769,10 +772,11 @@ aside .content-wrapper .form {
   font-size: 3em;
 }
 
-.faq h4 {
+.faq h4, .faq p {
   font-size: 1.125em;
   line-height: 1;
 }
+
 
 /* ==========================================================================
    Print styles.
